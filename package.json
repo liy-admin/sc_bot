@@ -1,0 +1,17 @@
+{
+  "name": "sc-bot",
+  "version": "1.0.0",
+  "description": "Telegram card key selling bot with scpay payment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.0",
+    "https-proxy-agent": "^7.0.6",
+    "node-telegram-bot-api": "^0.64.0",
+    "qrcode": "^1.5.3"
+  }
+}
